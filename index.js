@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     // Check if the script has already run in this session
     if (!sessionStorage.getItem('utm_processed')) {
@@ -43,4 +42,3 @@ document.addEventListener('DOMContentLoaded', function() {
         sessionStorage.setItem('utm_processed', 'true');
     }
 });
-</script>
